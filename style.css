@@ -1,3 +1,6 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
 
 header {
   background-color: darkgrey;
@@ -9,7 +12,7 @@ header {
 }
 
 header img {
-  margin-right: 134px;
+  margin-right: 112px;
 }
 
 nav ul li {
@@ -57,7 +60,10 @@ article h2 {
 article button {
   margin: 0;
   margin-top: 10px;
+  background-color: rgb(87, 86, 87);
+  color: white;
 }
+
 
 button:hover {
   background-color: rgb(187, 139, 187);
@@ -75,7 +81,7 @@ article p {
   text-emphasis: slant;
   height: 340px;
   overflow: scroll;
-  margin: 0px;
+  font-style: italic;
 } 
 
 footer {
